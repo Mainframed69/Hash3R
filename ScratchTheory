@@ -1,0 +1,24 @@
+#By Ronal L. 
+For the given servers
+Server1:IP(X)
+Server2:IP(Y)
+Server3:IP(Z)
+ main
+'helloworld'
+Hash:0x0100CF465B7B12625EF019E157120D58DD46569AC7BF4118455D12625EF019E157120D58DD46569AC7BF4118455D
+
+encrypted query in squl server
+
+
+//theorical solution for query encrypGHFCtion through Hash Structure
+//sql inyection as refrence
+
+create proc exec_decrypt(@sql_str varbinary(8000))
+as
+begin
+declare @qry varchar(8000);
+select @qry=cast(@sql_str as varchar(8000));
+exec(@qry);
+end
+
+ncrypt(Update abc set col1=12 where id = 2)
