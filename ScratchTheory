@@ -7,11 +7,11 @@ Server3:IP(Z)
 'helloworld'
 Hash:0x0100CF465B7B12625EF019E157120D58DD46569AC7BF4118455D12625EF019E157120D58DD46569AC7BF4118455D
 
-encrypted query in squl server
+#E2E query in sql server
 
 
-//theorical solution for query encrypGHFCtion through Hash Structure
-//sql inyection as refrence
+#theorical solution for query encrypGHFCtion through Hash Structure
+#sql inyection as refrence
 
 create proc exec_decrypt(@sql_str varbinary(8000))
 as
