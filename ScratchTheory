@@ -11,7 +11,7 @@ Hash:0x0100CF465B7B12625EF019E157120D58DD46569AC7BF4118455D12625EF019E157120D58D
 
 
 #theorical solution for query encrypGHFCtion through Hash Structure
-#sql inyection as refrence
+#sql inyection as reference
 
 create proc exec_decrypt(@sql_str varbinary(8000))
 as
