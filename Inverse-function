@@ -1,0 +1,7 @@
+create proc exec_decrypt(@sql_str varbinary(8000))
+as
+begin
+declare @qry varchar(8000);
+select @qry=cast(@sql_str as varchar(8000));
+exec(@qry);
+end
